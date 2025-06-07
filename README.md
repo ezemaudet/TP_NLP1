@@ -4,6 +4,7 @@ Trabajos Practicos de NLP_1
 Estructura del Proyecto
 
 Desafío 1 — Preprocesamiento inicial
+
 Carga de datos conversacionales del dataset ConvAI2.
 Limpieza y normalización de texto:
 Conversión a minúsculas
@@ -15,6 +16,7 @@ Ajuste de longitudes máximas de secuencias para optimizar el modelo.
 Objetivo: preparar los datos de entrenamiento para las siguientes etapas de modelado.
 
 Desafío 2 — Generación de embeddings custom con Gensim
+
 Entrenamiento de modelos de embeddings propios:
 Word2Vec
 FastText (alternativo)
@@ -24,6 +26,7 @@ Obtención de embedding_matrix personalizada en base al vocabulario generado.
 Objetivo: entrenar embeddings adaptados al dominio conversacional específico, mejorando la representación semántica.
 
 Desafío 3 — Entrenamiento del modelo secuencial básico
+
 Construcción de un modelo secuencial encoder-decoder utilizando embeddings generados.
 Arquitectura basada en LSTM:
 Encoder con embeddings fijos
@@ -34,6 +37,7 @@ Entrenamiento inicial del modelo seq2seq.
 Objetivo: implementar el primer modelo funcional de pregunta-respuesta.
 
 Desafío 4 — Desarrollo final del chatbot QA
+
 Optimización de la arquitectura completa:
 Unificación de tokenizadores (vocabulario único)
 Embedding único, fijo, compartido por encoder y decoder
